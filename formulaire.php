@@ -1,15 +1,5 @@
 <?php
 
-	if (!empty($_POST['lname'])) { //Champ du Nom
-		if(!ctype_alpha($_POST['lname'])){
-			echo "Erreur de Nom" . "<br>";
-		}
-
-		else {
-			echo "Nom conforme" . "<br>";
-		}
-	}
-
 	if (!empty($_POST['fname'])) { //Champ du Prénom
 		if(!ctype_alpha($_POST['fname'])){
 			echo "Erreur de Prénom" . "<br>";
